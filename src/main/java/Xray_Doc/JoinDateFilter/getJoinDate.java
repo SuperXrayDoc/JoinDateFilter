@@ -7,7 +7,7 @@ import java.io.IOException;
 import net.minecraft.client.Minecraft;
 
 public class getJoinDate {
-	public boolean findJoinDate(String name) throws IOException {
+	public int findJoinDate(String name) throws IOException {
 		
 		String path=System.getenv("APPDATA")+"/.minecraft/JoinDateFilter/dates.txt";
 		File file_dates = new File(path);
@@ -29,7 +29,7 @@ public class getJoinDate {
 	    
 	    while ((line2=reader_wl.readLine()) != null) {
 			if(line2.equalsIgnoreCase(name)) {
-				return false;
+				return 2;
 			}
 	    }
 	    //reader_wl.close();
@@ -39,16 +39,16 @@ public class getJoinDate {
 				String date=reader_names.readLine();
 				filter=compareDates.compareJoinDate(date);
 				if(filter) {
-					reader_names.close();
-					return true;
+					return 1;
 				}
-				check=1;
+				else {
+					return 2;
+				}
 			}
 		}
-	    if (check==0)
-	    	Minecraft.getMinecraft().player.sendChatMessage("/joindate "+name);
+	    Minecraft.getMinecraft().player.sendChatMessage("/joindate "+name);
 	    
 		//reader_names.close();
-	    return false;
+	    return 0;
 	}
 }
