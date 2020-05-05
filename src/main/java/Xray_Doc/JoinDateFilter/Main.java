@@ -25,7 +25,7 @@ public class Main {
 	
 	public static final String MOD_ID="joindatefilter";
 	public static final String NAME="Join Date Filter";
-	public static final String VERSION="1.0.0";
+	public static final String VERSION="1.0.1";
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) throws IOException
@@ -39,9 +39,9 @@ public class Main {
 	String name = null;
 	String date = null;
 	int playercheck=1;
-    writeJoinDate newDate=new writeJoinDate();
+    	writeJoinDate newDate=new writeJoinDate();
 	getJoinDate searchDate=new getJoinDate();
-	boolean filter=false;
+	int filter=0;
     
     @SubscribeEvent
 	public void clientChat(ClientChatReceivedEvent event) throws IOException, InterruptedException {
@@ -50,7 +50,11 @@ public class Main {
 			
 			String message = event.getMessage().getUnformattedText();
 			
-			if(message.contains("<")) {
+			if(message.contains("[server]")) {
+				
+			}
+			
+			else if(message.contains("<")) {
 				playercheck=0;
 				int startIndex = message.indexOf("<");
 				int endIndex = message.indexOf(">");
@@ -58,19 +62,17 @@ public class Main {
 			
 				filter=searchDate.findJoinDate(name);
 				
-				if(filter) {
+				if(filter==1) {
 					playercheck=1;
-					filter=false;
+					filter=0;
 					event.setMessage(null);
+				}
+				if(filter==2) {
+					playercheck=1;
 				}
 			}
 			
-			else if(message.contains("[server]")) {
-				event.setCanceled(true);
-				event.isCanceled();
-			}
-			
-			else if(message.contains("Couldn't find "+name+". Have they joined before?")) {
+			else if(message.contains("Have they joined before?")) {
 				LocalDateTime currentDate = LocalDateTime.now();
 				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd");
 				String strCurrentDate = currentDate.format(formatter);
