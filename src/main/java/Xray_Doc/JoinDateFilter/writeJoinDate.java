@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 public class writeJoinDate {
 	public void newDateAppend(String name, String date) throws IOException, InterruptedException {
-		String path=System.getenv("APPDATA")+"/.minecraft/JoinDateFilter/dates.txt";
+		String path=Minecraft.getMinecraft().mcDataDir.getAbsolutePath() + "/JoinDateFilter/dates.txt";
 		File file = new File(path);
 		
 		FileWriter fw = new FileWriter(path,true);
