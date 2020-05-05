@@ -9,10 +9,10 @@ import net.minecraft.client.Minecraft;
 public class getJoinDate {
 	public int findJoinDate(String name) throws IOException {
 		
-		String path=System.getenv("APPDATA")+"/.minecraft/JoinDateFilter/dates.txt";
+		String path=Minecraft.getMinecraft().mcDataDir.getAbsolutePath() + "/JoinDateFilter/dates.txt";
 		File file_dates = new File(path);
 		
-		path=System.getenv("APPDATA")+"/.minecraft/JoinDateFilter/whitelist.txt";
+		path=Minecraft.getMinecraft().mcDataDir.getAbsolutePath() + "/JoinDateFilter/whitelist.txt";
 		File file_wl = new File(path);
 		
 		BufferedReader reader_names = null;
