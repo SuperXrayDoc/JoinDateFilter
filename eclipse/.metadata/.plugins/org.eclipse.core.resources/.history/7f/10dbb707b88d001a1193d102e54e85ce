@@ -1,0 +1,48 @@
+package Xray_Doc.JoinDateFilter;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+import net.minecraft.client.Minecraft;
+
+public class getJoinDate {
+	public static void findJoinDate(String name) throws IOException {
+		
+		String path=System.getenv("APPDATA")+"/.minecraft/JoinDateFilter/dates.txt";
+		File file_dates = new File(path);
+		
+		path=System.getenv("APPDATA")+"/.minecraft/JoinDateFilter/whitelist.txt";
+		File file_wl = new File(path);
+		
+		BufferedReader reader_names = null;
+		BufferedReader reader_wl = null;
+		
+	    reader_names = new BufferedReader(new FileReader(file_dates));
+	    reader_wl=new BufferedReader(new FileReader(file_wl));
+	    
+	    int check=0;
+	    String line;
+	    String line2;
+	    compareDates compareDates=new compareDates();
+	    
+	    while ((line2=reader_wl.readLine()) != null) {
+			if(line2.equals(name)) {
+				check=1;
+				break;
+			}
+	    }
+	    
+	    while ((line=reader_names.readLine()) != null && check==0) {
+			if(line.equals(name)) {
+				String date=reader_names.readLine();
+				compareDates.compareJoinDate(date);
+				break;
+			}
+		}
+	    if (check==0)
+	    	Minecraft.getMinecraft().player.sendChatMessage("/joindate "+name);
+	    //reader.close();
+	}
+}

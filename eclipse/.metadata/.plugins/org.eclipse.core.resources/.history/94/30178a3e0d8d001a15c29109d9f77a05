@@ -1,0 +1,30 @@
+package Xray_Doc.JoinDateFilter;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import net.minecraft.client.Minecraft;
+import net.minecraftforge.event.ServerChatEvent;
+
+public class writeJoinDate {
+	public void newDateAppend(String name) throws IOException {
+		String path=System.getenv("APPDATA")+"/.minecraft/JoinDateFilter/dates.txt";
+		File file = new File(path);
+		Minecraft.getMinecraft().player.sendChatMessage("/joindate "+name);
+		//serverChat(null);
+		int date=1;
+		
+		FileWriter fw = new FileWriter(file, true);
+	    BufferedWriter bw = new BufferedWriter(fw);
+	    PrintWriter out = new PrintWriter(bw);
+		out.print(name+"\n"+date+"\n");
+	}
+	
+	public void serverChat(ServerChatEvent event) {
+		String message=event.getMessage();
+		System.out.println(message);
+	}
+}

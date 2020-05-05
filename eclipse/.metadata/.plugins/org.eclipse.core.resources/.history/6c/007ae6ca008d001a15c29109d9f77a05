@@ -1,0 +1,16 @@
+package Xray_Doc.JoinDateFilter;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class writeJoinDate {
+	public static void newDateAppend(String name) throws IOException {
+		String path=System.getenv("APPDATA")+"/.minecraft/JoinDateFilter/dates.txt";
+		File file = new File(path);
+		FileWriter writer = new FileWriter(path);
+		String date="";
+		writer.append(name+"\n"+date+"\n");
+		writer.close();
+	}
+}

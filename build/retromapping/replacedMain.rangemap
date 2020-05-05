@@ -1,0 +1,333 @@
+Unsupposrted library path: C:\Users\Matt\Desktop\Mods\JoinDateFilter\build\classes\api
+Unsupposrted library path: C:\Users\Matt\Desktop\Mods\JoinDateFilter\build\resources\api
+Symbol range map extraction starting
+Processing 6 files
+startProcessing "Xray_Doc/JoinDateFilter/Main.java" md5: b389735e4b8308eb119e8da633c603ac
+@|Xray_Doc/JoinDateFilter/Main.java|8|31|Xray_Doc.JoinDateFilter|package|Xray_Doc.JoinDateFilter|(file)
+Class Start: Xray_Doc.JoinDateFilter.Main
+   @|Xray_Doc/JoinDateFilter/Main.java|978|981|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|Xray_Doc/JoinDateFilter/Main.java|982|987|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|Xray_Doc/JoinDateFilter/Main.java|988|992|Main|class|Xray_Doc.JoinDateFilter.Main|false
+   @|Xray_Doc/JoinDateFilter/Main.java|993|999|MOD_ID|field|Xray_Doc.JoinDateFilter.Main|MOD_ID
+   @|Xray_Doc/JoinDateFilter/Main.java|1001|1005|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|Xray_Doc/JoinDateFilter/Main.java|1006|1010|Main|class|Xray_Doc.JoinDateFilter.Main|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1011|1015|NAME|field|Xray_Doc.JoinDateFilter.Main|NAME
+   @|Xray_Doc/JoinDateFilter/Main.java|1017|1024|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|Xray_Doc/JoinDateFilter/Main.java|1025|1029|Main|class|Xray_Doc.JoinDateFilter.Main|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1030|1037|VERSION|field|Xray_Doc.JoinDateFilter.Main|VERSION
+   @|Xray_Doc/JoinDateFilter/Main.java|1055|1059|Main|class|Xray_Doc.JoinDateFilter.Main|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1087|1093|String|class|java.lang.String|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1087|1093|String|class|java.lang.String|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1094|1100|MOD_ID|field|Xray_Doc.JoinDateFilter.Main|MOD_ID|
+   @|Xray_Doc/JoinDateFilter/Main.java|1141|1147|String|class|java.lang.String|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1141|1147|String|class|java.lang.String|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1148|1152|NAME|field|Xray_Doc.JoinDateFilter.Main|NAME|
+   @|Xray_Doc/JoinDateFilter/Main.java|1195|1201|String|class|java.lang.String|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1195|1201|String|class|java.lang.String|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1202|1209|VERSION|field|Xray_Doc.JoinDateFilter.Main|VERSION|
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|1280|1285|event|param|Xray_Doc.JoinDateFilter.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|Xray_Doc/JoinDateFilter/Main.java|1225|1237|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1252|1256|init|method|Xray_Doc.JoinDateFilter.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|1257|1279|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1294|1305|IOException|class|java.io.IOException|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1313|1329|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1330|1338|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|Xray_Doc/JoinDateFilter/Main.java|1341|1344|bus|method|net.minecraftforge.fml.common.FMLCommonHandler|bus|()Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+      @|Xray_Doc/JoinDateFilter/Main.java|1347|1355|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|1372|1386|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1387|1396|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|Xray_Doc/JoinDateFilter/Main.java|1397|1405|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|1422|1432|createFile|class|Xray_Doc.JoinDateFilter.createFile|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1447|1457|createFile|class|Xray_Doc.JoinDateFilter.createFile|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1479|1494|createDataFiles|method|Xray_Doc.JoinDateFilter.createFile|createDataFiles|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   @|Xray_Doc/JoinDateFilter/Main.java|1507|1513|String|class|java.lang.String|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1507|1513|String|class|java.lang.String|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1514|1518|name|field|Xray_Doc.JoinDateFilter.Main|name|
+   @|Xray_Doc/JoinDateFilter/Main.java|1529|1535|String|class|java.lang.String|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1529|1535|String|class|java.lang.String|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1536|1540|date|field|Xray_Doc.JoinDateFilter.Main|date|
+   @|Xray_Doc/JoinDateFilter/Main.java|1555|1566|playercheck|field|Xray_Doc.JoinDateFilter.Main|playercheck|
+   @|Xray_Doc/JoinDateFilter/Main.java|1575|1588|writeJoinDate|class|Xray_Doc.JoinDateFilter.writeJoinDate|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1575|1588|writeJoinDate|class|Xray_Doc.JoinDateFilter.writeJoinDate|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1589|1596|newDate|field|Xray_Doc.JoinDateFilter.Main|newDate|
+   @|Xray_Doc/JoinDateFilter/Main.java|1601|1614|writeJoinDate|class|Xray_Doc.JoinDateFilter.writeJoinDate|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1620|1631|getJoinDate|class|Xray_Doc.JoinDateFilter.getJoinDate|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1620|1631|getJoinDate|class|Xray_Doc.JoinDateFilter.getJoinDate|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1632|1642|searchDate|field|Xray_Doc.JoinDateFilter.Main|searchDate|
+   @|Xray_Doc/JoinDateFilter/Main.java|1647|1658|getJoinDate|class|Xray_Doc.JoinDateFilter.getJoinDate|false
+   @|Xray_Doc/JoinDateFilter/Main.java|1672|1678|filter|field|Xray_Doc.JoinDateFilter.Main|filter|
+   Method Start: clientChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|1762|1767|event|param|Xray_Doc.JoinDateFilter.Main|clientChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|Xray_Doc/JoinDateFilter/Main.java|1698|1712|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1727|1737|clientChat|method|Xray_Doc.JoinDateFilter.Main|clientChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|1738|1761|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1776|1787|IOException|class|java.io.IOException|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1789|1809|InterruptedException|class|java.lang.InterruptedException|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1822|1828|config|class|Xray_Doc.JoinDateFilter.config|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1829|1840|mod_enabled|field|Xray_Doc.JoinDateFilter.config|mod_enabled
+      @|Xray_Doc/JoinDateFilter/Main.java|1853|1859|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/Main.java|1870|1875|event|param|Xray_Doc.JoinDateFilter.Main|clientChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|Xray_Doc/JoinDateFilter/Main.java|1876|1886|getMessage|method|net.minecraftforge.client.event.ClientChatReceivedEvent|getMessage|()Lnet/minecraft/util/text/ITextComponent;
+      @|Xray_Doc/JoinDateFilter/Main.java|1889|1907|getUnformattedText|method|net.minecraft.util.text.ITextComponent|getUnformattedText|()Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/Main.java|1931|1939|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|Xray_Doc/JoinDateFilter/Main.java|1953|1964|playercheck|field|Xray_Doc.JoinDateFilter.Main|playercheck
+      @|Xray_Doc/JoinDateFilter/Main.java|1998|2005|indexOf|method|java.lang.String|indexOf|(Ljava/lang/String;)I
+      @|Xray_Doc/JoinDateFilter/Main.java|2040|2047|indexOf|method|java.lang.String|indexOf|(Ljava/lang/String;)I
+      @|Xray_Doc/JoinDateFilter/Main.java|2059|2063|name|field|Xray_Doc.JoinDateFilter.Main|name
+      @|Xray_Doc/JoinDateFilter/Main.java|2072|2081|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/Main.java|2116|2122|filter|field|Xray_Doc.JoinDateFilter.Main|filter
+      @|Xray_Doc/JoinDateFilter/Main.java|2123|2133|searchDate|field|Xray_Doc.JoinDateFilter.Main|searchDate
+      @|Xray_Doc/JoinDateFilter/Main.java|2134|2146|findJoinDate|method|Xray_Doc.JoinDateFilter.getJoinDate|findJoinDate|(Ljava/lang/String;)Z
+      @|Xray_Doc/JoinDateFilter/Main.java|2147|2151|name|field|Xray_Doc.JoinDateFilter.Main|name
+      @|Xray_Doc/JoinDateFilter/Main.java|2168|2174|filter|field|Xray_Doc.JoinDateFilter.Main|filter
+      @|Xray_Doc/JoinDateFilter/Main.java|2184|2195|playercheck|field|Xray_Doc.JoinDateFilter.Main|playercheck
+      @|Xray_Doc/JoinDateFilter/Main.java|2205|2211|filter|field|Xray_Doc.JoinDateFilter.Main|filter
+      @|Xray_Doc/JoinDateFilter/Main.java|2225|2230|event|param|Xray_Doc.JoinDateFilter.Main|clientChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|Xray_Doc/JoinDateFilter/Main.java|2231|2241|setMessage|method|net.minecraftforge.client.event.ClientChatReceivedEvent|setMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|2287|2295|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|Xray_Doc/JoinDateFilter/Main.java|2316|2321|event|param|Xray_Doc.JoinDateFilter.Main|clientChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|Xray_Doc/JoinDateFilter/Main.java|2322|2333|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|Xray_Doc/JoinDateFilter/Main.java|2346|2351|event|param|Xray_Doc.JoinDateFilter.Main|clientChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|Xray_Doc/JoinDateFilter/Main.java|2352|2362|isCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|isCanceled|()Z
+      @|Xray_Doc/JoinDateFilter/Main.java|2397|2405|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|Xray_Doc/JoinDateFilter/Main.java|2423|2427|name|field|Xray_Doc.JoinDateFilter.Main|name
+      @|Xray_Doc/JoinDateFilter/Main.java|2466|2479|LocalDateTime|class|java.time.LocalDateTime|false
+      @|Xray_Doc/JoinDateFilter/Main.java|2494|2507|LocalDateTime|class|java.time.LocalDateTime|false
+      @|Xray_Doc/JoinDateFilter/Main.java|2508|2511|now|method|java.time.LocalDateTime|now|()Ljava/time/LocalDateTime;
+      @|Xray_Doc/JoinDateFilter/Main.java|2520|2537|DateTimeFormatter|class|java.time.format.DateTimeFormatter|false
+      @|Xray_Doc/JoinDateFilter/Main.java|2550|2567|DateTimeFormatter|class|java.time.format.DateTimeFormatter|false
+      @|Xray_Doc/JoinDateFilter/Main.java|2568|2577|ofPattern|method|java.time.format.DateTimeFormatter|ofPattern|(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
+      @|Xray_Doc/JoinDateFilter/Main.java|2598|2604|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/Main.java|2634|2640|format|method|java.time.chrono.ChronoLocalDateTime|format|(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/Main.java|2664|2671|newDate|field|Xray_Doc.JoinDateFilter.Main|newDate
+      @|Xray_Doc/JoinDateFilter/Main.java|2672|2685|newDateAppend|method|Xray_Doc.JoinDateFilter.writeJoinDate|newDateAppend|(Ljava/lang/String;Ljava/lang/String;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|2686|2690|name|field|Xray_Doc.JoinDateFilter.Main|name
+      @|Xray_Doc/JoinDateFilter/Main.java|2713|2718|event|param|Xray_Doc.JoinDateFilter.Main|clientChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|Xray_Doc/JoinDateFilter/Main.java|2719|2729|setMessage|method|net.minecraftforge.client.event.ClientChatReceivedEvent|setMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|2768|2776|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|Xray_Doc/JoinDateFilter/Main.java|2792|2803|playercheck|field|Xray_Doc.JoinDateFilter.Main|playercheck
+      @|Xray_Doc/JoinDateFilter/Main.java|2833|2844|lastIndexOf|method|java.lang.String|lastIndexOf|(Ljava/lang/String;)I
+      @|Xray_Doc/JoinDateFilter/Main.java|2856|2860|name|field|Xray_Doc.JoinDateFilter.Main|name
+      @|Xray_Doc/JoinDateFilter/Main.java|2869|2878|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/Main.java|2894|2899|event|param|Xray_Doc.JoinDateFilter.Main|clientChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|Xray_Doc/JoinDateFilter/Main.java|2900|2910|setMessage|method|net.minecraftforge.client.event.ClientChatReceivedEvent|setMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|2949|2957|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|Xray_Doc/JoinDateFilter/Main.java|2979|2990|playercheck|field|Xray_Doc.JoinDateFilter.Main|playercheck
+      @|Xray_Doc/JoinDateFilter/Main.java|3020|3027|indexOf|method|java.lang.String|indexOf|(Ljava/lang/String;)I
+      @|Xray_Doc/JoinDateFilter/Main.java|3039|3043|date|field|Xray_Doc.JoinDateFilter.Main|date
+      @|Xray_Doc/JoinDateFilter/Main.java|3052|3061|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/Main.java|3086|3091|event|param|Xray_Doc.JoinDateFilter.Main|clientChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|Xray_Doc/JoinDateFilter/Main.java|3092|3102|setMessage|method|net.minecraftforge.client.event.ClientChatReceivedEvent|setMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|3115|3122|newDate|field|Xray_Doc.JoinDateFilter.Main|newDate
+      @|Xray_Doc/JoinDateFilter/Main.java|3123|3136|newDateAppend|method|Xray_Doc.JoinDateFilter.writeJoinDate|newDateAppend|(Ljava/lang/String;Ljava/lang/String;)V
+      @|Xray_Doc/JoinDateFilter/Main.java|3137|3141|name|field|Xray_Doc.JoinDateFilter.Main|name
+      @|Xray_Doc/JoinDateFilter/Main.java|3142|3146|date|field|Xray_Doc.JoinDateFilter.Main|date
+      @|Xray_Doc/JoinDateFilter/Main.java|3180|3188|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|Xray_Doc/JoinDateFilter/Main.java|3207|3218|playercheck|field|Xray_Doc.JoinDateFilter.Main|playercheck
+      @|Xray_Doc/JoinDateFilter/Main.java|3230|3241|playercheck|field|Xray_Doc.JoinDateFilter.Main|playercheck
+      @|Xray_Doc/JoinDateFilter/Main.java|3250|3255|event|param|Xray_Doc.JoinDateFilter.Main|clientChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|Xray_Doc/JoinDateFilter/Main.java|3256|3266|setMessage|method|net.minecraftforge.client.event.ClientChatReceivedEvent|setMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+   Method End: clientChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+Class End  : Xray_Doc.JoinDateFilter.Main
+endProcessing "Xray_Doc/JoinDateFilter/Main.java"
+
+startProcessing "Xray_Doc/JoinDateFilter/compareDates.java" md5: 8ea82fac18475c4cf6a9aa259aaecf6c
+@|Xray_Doc/JoinDateFilter/compareDates.java|8|31|Xray_Doc.JoinDateFilter|package|Xray_Doc.JoinDateFilter|(file)
+Class Start: Xray_Doc.JoinDateFilter.compareDates
+   @|Xray_Doc/JoinDateFilter/compareDates.java|49|61|compareDates|class|Xray_Doc.JoinDateFilter.compareDates|false
+   Method Start: compareJoinDate(Ljava/lang/String;)Z
+      @|Xray_Doc/JoinDateFilter/compareDates.java|105|109|date|param|Xray_Doc.JoinDateFilter.compareDates|compareJoinDate|(Ljava/lang/String;)Z|date|0
+      @|Xray_Doc/JoinDateFilter/compareDates.java|82|97|compareJoinDate|method|Xray_Doc.JoinDateFilter.compareDates|compareJoinDate|(Ljava/lang/String;)Z
+      @|Xray_Doc/JoinDateFilter/compareDates.java|98|104|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/compareDates.java|124|131|Integer|class|java.lang.Integer|false
+      @|Xray_Doc/JoinDateFilter/compareDates.java|132|140|parseInt|method|java.lang.Integer|parseInt|(Ljava/lang/String;)I
+      @|Xray_Doc/JoinDateFilter/compareDates.java|141|145|date|param|Xray_Doc.JoinDateFilter.compareDates|compareJoinDate|(Ljava/lang/String;)Z|date|0
+      @|Xray_Doc/JoinDateFilter/compareDates.java|146|155|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/compareDates.java|176|183|Integer|class|java.lang.Integer|false
+      @|Xray_Doc/JoinDateFilter/compareDates.java|184|192|parseInt|method|java.lang.Integer|parseInt|(Ljava/lang/String;)I
+      @|Xray_Doc/JoinDateFilter/compareDates.java|193|197|date|param|Xray_Doc.JoinDateFilter.compareDates|compareJoinDate|(Ljava/lang/String;)Z|date|0
+      @|Xray_Doc/JoinDateFilter/compareDates.java|198|207|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/compareDates.java|226|233|Integer|class|java.lang.Integer|false
+      @|Xray_Doc/JoinDateFilter/compareDates.java|234|242|parseInt|method|java.lang.Integer|parseInt|(Ljava/lang/String;)I
+      @|Xray_Doc/JoinDateFilter/compareDates.java|243|247|date|param|Xray_Doc.JoinDateFilter.compareDates|compareJoinDate|(Ljava/lang/String;)Z|date|0
+      @|Xray_Doc/JoinDateFilter/compareDates.java|248|257|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/compareDates.java|289|295|config|class|Xray_Doc.JoinDateFilter.config|false
+      @|Xray_Doc/JoinDateFilter/compareDates.java|296|307|cutoff_year|field|Xray_Doc.JoinDateFilter.config|cutoff_year
+      @|Xray_Doc/JoinDateFilter/compareDates.java|329|335|config|class|Xray_Doc.JoinDateFilter.config|false
+      @|Xray_Doc/JoinDateFilter/compareDates.java|336|348|cutoff_month|field|Xray_Doc.JoinDateFilter.config|cutoff_month
+      @|Xray_Doc/JoinDateFilter/compareDates.java|368|374|config|class|Xray_Doc.JoinDateFilter.config|false
+      @|Xray_Doc/JoinDateFilter/compareDates.java|375|385|cutoff_day|field|Xray_Doc.JoinDateFilter.config|cutoff_day
+      @|Xray_Doc/JoinDateFilter/compareDates.java|394|400|System|class|java.lang.System|false
+      @|Xray_Doc/JoinDateFilter/compareDates.java|401|404|out|field|java.lang.System|out
+      @|Xray_Doc/JoinDateFilter/compareDates.java|405|412|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: compareJoinDate(Ljava/lang/String;)Z
+Class End  : Xray_Doc.JoinDateFilter.compareDates
+endProcessing "Xray_Doc/JoinDateFilter/compareDates.java"
+
+startProcessing "Xray_Doc/JoinDateFilter/config.java" md5: 4c89ad1f7e5d846edac4938ec629bd43
+@|Xray_Doc/JoinDateFilter/config.java|8|31|Xray_Doc.JoinDateFilter|package|Xray_Doc.JoinDateFilter|(file)
+Class Start: Xray_Doc.JoinDateFilter.config
+   @|Xray_Doc/JoinDateFilter/config.java|626|632|Config|class|net.minecraftforge.common.config.Config|false
+   @|Xray_Doc/JoinDateFilter/config.java|633|638|modid|method|net.minecraftforge.common.config.Config|modid|()Ljava/lang/String;
+   @|Xray_Doc/JoinDateFilter/config.java|639|643|Main|class|Xray_Doc.JoinDateFilter.Main|false
+   @|Xray_Doc/JoinDateFilter/config.java|644|650|MOD_ID|field|Xray_Doc.JoinDateFilter.Main|MOD_ID
+   @|Xray_Doc/JoinDateFilter/config.java|652|656|name|method|net.minecraftforge.common.config.Config|name|()Ljava/lang/String;
+   @|Xray_Doc/JoinDateFilter/config.java|671|675|type|method|net.minecraftforge.common.config.Config|type|()Lnet/minecraftforge/common/config/Config$Type;
+   @|Xray_Doc/JoinDateFilter/config.java|676|680|Type|class|net.minecraftforge.common.config.Config.Type|false
+   @|Xray_Doc/JoinDateFilter/config.java|681|689|INSTANCE|field|net.minecraftforge.common.config.Config.Type|INSTANCE
+   @|Xray_Doc/JoinDateFilter/config.java|705|711|config|class|Xray_Doc.JoinDateFilter.config|false
+   @|Xray_Doc/JoinDateFilter/config.java|717|721|Name|class|net.minecraftforge.common.config.Config.Name|false
+   @|Xray_Doc/JoinDateFilter/config.java|739|746|Comment|class|net.minecraftforge.common.config.Config.Comment|false
+   @|Xray_Doc/JoinDateFilter/config.java|814|825|mod_enabled|field|Xray_Doc.JoinDateFilter.config|mod_enabled|
+   @|Xray_Doc/JoinDateFilter/config.java|838|842|Name|class|net.minecraftforge.common.config.Config.Name|false
+   @|Xray_Doc/JoinDateFilter/config.java|862|870|RangeInt|class|net.minecraftforge.common.config.Config.RangeInt|false
+   @|Xray_Doc/JoinDateFilter/config.java|871|874|min|method|net.minecraftforge.common.config.Config.RangeInt|min|()I
+   @|Xray_Doc/JoinDateFilter/config.java|880|883|max|method|net.minecraftforge.common.config.Config.RangeInt|max|()I
+   @|Xray_Doc/JoinDateFilter/config.java|910|921|cutoff_year|field|Xray_Doc.JoinDateFilter.config|cutoff_year|
+   @|Xray_Doc/JoinDateFilter/config.java|934|938|Name|class|net.minecraftforge.common.config.Config.Name|false
+   @|Xray_Doc/JoinDateFilter/config.java|959|967|RangeInt|class|net.minecraftforge.common.config.Config.RangeInt|false
+   @|Xray_Doc/JoinDateFilter/config.java|968|971|min|method|net.minecraftforge.common.config.Config.RangeInt|min|()I
+   @|Xray_Doc/JoinDateFilter/config.java|974|977|max|method|net.minecraftforge.common.config.Config.RangeInt|max|()I
+   @|Xray_Doc/JoinDateFilter/config.java|1002|1014|cutoff_month|field|Xray_Doc.JoinDateFilter.config|cutoff_month|
+   @|Xray_Doc/JoinDateFilter/config.java|1024|1028|Name|class|net.minecraftforge.common.config.Config.Name|false
+   @|Xray_Doc/JoinDateFilter/config.java|1047|1055|RangeInt|class|net.minecraftforge.common.config.Config.RangeInt|false
+   @|Xray_Doc/JoinDateFilter/config.java|1056|1059|min|method|net.minecraftforge.common.config.Config.RangeInt|min|()I
+   @|Xray_Doc/JoinDateFilter/config.java|1062|1065|max|method|net.minecraftforge.common.config.Config.RangeInt|max|()I
+   @|Xray_Doc/JoinDateFilter/config.java|1090|1100|cutoff_day|field|Xray_Doc.JoinDateFilter.config|cutoff_day|
+   Class Start: Xray_Doc.JoinDateFilter.config.EventHandler
+      @|Xray_Doc/JoinDateFilter/config.java|1110|1132|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+      @|Xray_Doc/JoinDateFilter/config.java|1133|1138|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/config.java|1141|1145|Main|class|Xray_Doc.JoinDateFilter.Main|false
+      @|Xray_Doc/JoinDateFilter/config.java|1146|1152|MOD_ID|field|Xray_Doc.JoinDateFilter.Main|MOD_ID
+      @|Xray_Doc/JoinDateFilter/config.java|1177|1189|EventHandler|class|Xray_Doc.JoinDateFilter.config.EventHandler|false
+      Method Start: onConfigChanged(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent$OnConfigChangedEvent;)V
+         @|Xray_Doc/JoinDateFilter/config.java|1295|1300|event|param|Xray_Doc.JoinDateFilter.config.EventHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent$OnConfigChangedEvent;)V|event|0
+         @|Xray_Doc/JoinDateFilter/config.java|1196|1210|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+         @|Xray_Doc/JoinDateFilter/config.java|1233|1248|onConfigChanged|method|Xray_Doc.JoinDateFilter.config.EventHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent$OnConfigChangedEvent;)V
+         @|Xray_Doc/JoinDateFilter/config.java|1255|1294|ConfigChangedEvent.OnConfigChangedEvent|class|net.minecraftforge.fml.client.event.ConfigChangedEvent.OnConfigChangedEvent|false
+         @|Xray_Doc/JoinDateFilter/config.java|1312|1317|event|param|Xray_Doc.JoinDateFilter.config.EventHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent$OnConfigChangedEvent;)V|event|0
+         @|Xray_Doc/JoinDateFilter/config.java|1318|1326|getModID|method|net.minecraftforge.fml.client.event.ConfigChangedEvent|getModID|()Ljava/lang/String;
+         @|Xray_Doc/JoinDateFilter/config.java|1329|1335|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+         @|Xray_Doc/JoinDateFilter/config.java|1336|1340|Main|class|Xray_Doc.JoinDateFilter.Main|false
+         @|Xray_Doc/JoinDateFilter/config.java|1341|1347|MOD_ID|field|Xray_Doc.JoinDateFilter.Main|MOD_ID
+         @|Xray_Doc/JoinDateFilter/config.java|1357|1370|ConfigManager|class|net.minecraftforge.common.config.ConfigManager|false
+         @|Xray_Doc/JoinDateFilter/config.java|1371|1375|sync|method|net.minecraftforge.common.config.ConfigManager|sync|(Ljava/lang/String;Lnet/minecraftforge/common/config/Config$Type;)V
+         @|Xray_Doc/JoinDateFilter/config.java|1376|1380|Main|class|Xray_Doc.JoinDateFilter.Main|false
+         @|Xray_Doc/JoinDateFilter/config.java|1381|1387|MOD_ID|field|Xray_Doc.JoinDateFilter.Main|MOD_ID
+         @|Xray_Doc/JoinDateFilter/config.java|1389|1400|Config.Type|class|net.minecraftforge.common.config.Config.Type|false
+         @|Xray_Doc/JoinDateFilter/config.java|1401|1409|INSTANCE|field|net.minecraftforge.common.config.Config.Type|INSTANCE
+      Method End: onConfigChanged(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent$OnConfigChangedEvent;)V
+   Class End  : Xray_Doc.JoinDateFilter.config.EventHandler
+Class End  : Xray_Doc.JoinDateFilter.config
+endProcessing "Xray_Doc/JoinDateFilter/config.java"
+
+startProcessing "Xray_Doc/JoinDateFilter/createFile.java" md5: 391b20964e70cba775c6dbdd3cbd71bb
+@|Xray_Doc/JoinDateFilter/createFile.java|8|31|Xray_Doc.JoinDateFilter|package|Xray_Doc.JoinDateFilter|(file)
+Class Start: Xray_Doc.JoinDateFilter.createFile
+   @|Xray_Doc/JoinDateFilter/createFile.java|102|112|createFile|class|Xray_Doc.JoinDateFilter.createFile|false
+   Method Start: createDataFiles()V
+      @|Xray_Doc/JoinDateFilter/createFile.java|129|144|createDataFiles|method|Xray_Doc.JoinDateFilter.createFile|createDataFiles|()V
+      @|Xray_Doc/JoinDateFilter/createFile.java|154|165|IOException|class|java.io.IOException|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|178|184|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|194|200|System|class|java.lang.System|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|201|207|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/createFile.java|255|259|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|271|275|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|293|299|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|306|312|System|class|java.lang.System|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|313|319|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/createFile.java|377|381|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|393|397|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|412|418|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|426|432|System|class|java.lang.System|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|433|439|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/createFile.java|501|505|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|519|523|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/createFile.java|553|558|mkdir|method|java.io.File|mkdir|()Z
+      @|Xray_Doc/JoinDateFilter/createFile.java|573|586|createNewFile|method|java.io.File|createNewFile|()Z
+      @|Xray_Doc/JoinDateFilter/createFile.java|603|616|createNewFile|method|java.io.File|createNewFile|()Z
+   Method End: createDataFiles()V
+Class End  : Xray_Doc.JoinDateFilter.createFile
+endProcessing "Xray_Doc/JoinDateFilter/createFile.java"
+
+startProcessing "Xray_Doc/JoinDateFilter/getJoinDate.java" md5: 0b04091079844ba83a6424be454b4365
+@|Xray_Doc/JoinDateFilter/getJoinDate.java|8|31|Xray_Doc.JoinDateFilter|package|Xray_Doc.JoinDateFilter|(file)
+Class Start: Xray_Doc.JoinDateFilter.getJoinDate
+   @|Xray_Doc/JoinDateFilter/getJoinDate.java|202|213|getJoinDate|class|Xray_Doc.JoinDateFilter.getJoinDate|false
+   Method Start: findJoinDate(Ljava/lang/String;)Z
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|253|257|name|param|Xray_Doc.JoinDateFilter.getJoinDate|findJoinDate|(Ljava/lang/String;)Z|name|0
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|233|245|findJoinDate|method|Xray_Doc.JoinDateFilter.getJoinDate|findJoinDate|(Ljava/lang/String;)Z
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|246|252|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|266|277|IOException|class|java.io.IOException|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|287|293|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|299|305|System|class|java.lang.System|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|306|312|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|367|371|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|389|393|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|413|419|System|class|java.lang.System|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|420|426|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|485|489|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|504|508|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|523|537|BufferedReader|class|java.io.BufferedReader|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|562|576|BufferedReader|class|java.io.BufferedReader|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|624|638|BufferedReader|class|java.io.BufferedReader|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|643|653|FileReader|class|java.io.FileReader|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|688|702|BufferedReader|class|java.io.BufferedReader|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|707|717|FileReader|class|java.io.FileReader|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|761|767|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|780|786|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|828|840|compareDates|class|Xray_Doc.JoinDateFilter.compareDates|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|858|870|compareDates|class|Xray_Doc.JoinDateFilter.compareDates|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|911|919|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|947|963|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|964|968|name|param|Xray_Doc.JoinDateFilter.getJoinDate|findJoinDate|(Ljava/lang/String;)Z|name|0
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1072|1080|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1107|1123|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1124|1128|name|param|Xray_Doc.JoinDateFilter.getJoinDate|findJoinDate|(Ljava/lang/String;)Z|name|0
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1138|1144|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1163|1171|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1200|1215|compareJoinDate|method|Xray_Doc.JoinDateFilter.compareDates|compareJoinDate|(Ljava/lang/String;)Z
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1260|1265|close|method|java.lang.AutoCloseable|close|()V
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1347|1356|Minecraft|class|net.minecraft.client.Minecraft|false
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1357|1369|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1372|1378|player|field|net.minecraft.client.Minecraft|player
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1379|1394|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|Xray_Doc/JoinDateFilter/getJoinDate.java|1408|1412|name|param|Xray_Doc.JoinDateFilter.getJoinDate|findJoinDate|(Ljava/lang/String;)Z|name|0
+   Method End: findJoinDate(Ljava/lang/String;)Z
+Class End  : Xray_Doc.JoinDateFilter.getJoinDate
+endProcessing "Xray_Doc/JoinDateFilter/getJoinDate.java"
+
+startProcessing "Xray_Doc/JoinDateFilter/writeJoinDate.java" md5: 74c12a45b497ea7908329e027a6fe6b3
+@|Xray_Doc/JoinDateFilter/writeJoinDate.java|8|31|Xray_Doc.JoinDateFilter|package|Xray_Doc.JoinDateFilter|(file)
+Class Start: Xray_Doc.JoinDateFilter.writeJoinDate
+   @|Xray_Doc/JoinDateFilter/writeJoinDate.java|526|539|writeJoinDate|class|Xray_Doc.JoinDateFilter.writeJoinDate|false
+   Method Start: newDateAppend(Ljava/lang/String;Ljava/lang/String;)V
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|577|581|name|param|Xray_Doc.JoinDateFilter.writeJoinDate|newDateAppend|(Ljava/lang/String;Ljava/lang/String;)V|name|0
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|590|594|date|param|Xray_Doc.JoinDateFilter.writeJoinDate|newDateAppend|(Ljava/lang/String;Ljava/lang/String;)V|date|1
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|556|569|newDateAppend|method|Xray_Doc.JoinDateFilter.writeJoinDate|newDateAppend|(Ljava/lang/String;Ljava/lang/String;)V
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|570|576|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|583|589|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|603|614|IOException|class|java.io.IOException|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|616|636|InterruptedException|class|java.lang.InterruptedException|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|642|648|String|class|java.lang.String|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|654|660|System|class|java.lang.System|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|661|667|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|722|726|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|738|742|File|class|java.io.File|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|757|767|FileWriter|class|java.io.FileWriter|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|777|787|FileWriter|class|java.io.FileWriter|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|806|820|BufferedWriter|class|java.io.BufferedWriter|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|830|844|BufferedWriter|class|java.io.BufferedWriter|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|856|867|PrintWriter|class|java.io.PrintWriter|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|878|889|PrintWriter|class|java.io.PrintWriter|false
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|902|907|print|method|java.io.PrintWriter|print|(Ljava/lang/String;)V
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|908|912|name|param|Xray_Doc.JoinDateFilter.writeJoinDate|newDateAppend|(Ljava/lang/String;Ljava/lang/String;)V|name|0
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|918|922|date|param|Xray_Doc.JoinDateFilter.writeJoinDate|newDateAppend|(Ljava/lang/String;Ljava/lang/String;)V|date|1
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|937|942|close|method|java.lang.AutoCloseable|close|()V
+      @|Xray_Doc/JoinDateFilter/writeJoinDate.java|949|953|wait|method|java.lang.Object|wait|(J)V
+   Method End: newDateAppend(Ljava/lang/String;Ljava/lang/String;)V
+Class End  : Xray_Doc.JoinDateFilter.writeJoinDate
+endProcessing "Xray_Doc/JoinDateFilter/writeJoinDate.java"
+

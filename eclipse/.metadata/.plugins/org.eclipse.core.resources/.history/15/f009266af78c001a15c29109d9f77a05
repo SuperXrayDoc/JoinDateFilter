@@ -1,0 +1,75 @@
+package Xray_Doc.JoinDateFilter;
+
+import net.minecraft.client.Minecraft;
+import net.minecraftforge.client.event.ClientChatReceivedEvent;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.FMLCommonHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+import java.io.PrintWriter;
+import Xray_Doc.JoinDateFilter.createFile;
+
+@Mod(modid=Main.MOD_ID, name=Main.NAME, version=Main.VERSION)
+
+public class Main {
+	
+	public static final String MOD_ID="joindatefilter";
+	public static final String NAME="Join Date Filter";
+	public static final String VERSION="1.0.0";
+	//public static final String ACCEPTED_VERSIONS="[1.12.2]";
+	
+	
+	@EventHandler
+	public void init(FMLInitializationEvent event)
+	{
+		FMLCommonHandler.instance().bus().register(this);
+        MinecraftForge.EVENT_BUS.register(this);
+        createFile initFile= new createFile();
+        initFile.createDatesFile(null);
+	}
+	
+	@SubscribeEvent
+	public void clientChat(ClientChatReceivedEvent event) throws IOException {
+	    String message = event.getMessage().getUnformattedText();
+	    
+	    int startIndex = message.indexOf("<");
+	    int endIndex = message.indexOf(">");
+	    String toBeReplaced = message.substring(startIndex, endIndex+2);
+	    message=message.replace(toBeReplaced, ""); //Removes player name from message
+	    
+	    String name=Minecraft.getMinecraft().player.getName();
+	    
+	    writeFile(name,message);
+	    
+	        if(name.equals(Minecraft.getMinecraft().player.getName())) {
+	        	System.out.println("The name is " +name);
+	        	System.out.println("The message is " +message);
+	        
+	        }
+	}
+	
+	public void writeFile(String name, String date) throws IOException {
+		String path=System.getenv("APPDATA")+"/.minecraft/JoinDateFilter/dates.txt";
+		File file = new File(path);
+		Scanner scan = new Scanner(file);
+		String fileContent = name+date;
+		
+		while (scan.hasNextLine()) {
+			fileContent = fileContent.concat(scan.nextLine() + "\n");
+			}
+		scan.close();
+
+		FileWriter writer = new FileWriter(path);
+		writer.write(fileContent);
+		writer.close();
+	}
+}
+
+

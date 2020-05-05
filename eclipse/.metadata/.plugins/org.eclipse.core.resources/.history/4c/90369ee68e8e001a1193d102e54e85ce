@@ -1,0 +1,8 @@
+package Xray_Doc.JoinDateFilter;
+
+public class CommonProxy {
+	public void preInit() {
+		JDFconfig.preInit();
+	}
+
+}

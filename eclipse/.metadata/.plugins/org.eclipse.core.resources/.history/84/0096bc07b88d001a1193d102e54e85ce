@@ -1,0 +1,11 @@
+package Xray_Doc.JoinDateFilter;
+
+public class compareDates {
+	public void compareJoinDate(String date) {
+		int year=Integer.parseInt(date.substring(0,3));
+		int month=Integer.parseInt(date.substring(5,6));
+		int day=Integer.parseInt(date.substring(8,9));
+		System.out.println(year+"/"+month+"/"+day);
+	}
+
+}

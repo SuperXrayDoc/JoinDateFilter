@@ -1,0 +1,16 @@
+[
+{
+  "modid": "joindatefilter",
+  "name": "Join Date Filter",
+  "description": "Filters chat based on server join date.",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Xray_Doc"],
+  "credits": "All the retards in chat driving me to make this mod.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

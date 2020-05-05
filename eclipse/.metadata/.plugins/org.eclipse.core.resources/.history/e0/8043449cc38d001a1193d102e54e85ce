@@ -1,0 +1,27 @@
+package Xray_Doc.JoinDateFilter;
+
+import java.io.IOException;
+
+import net.minecraftforge.client.event.ClientChatReceivedEvent;
+
+public class compareDates {
+	
+	public void compareJoinDate(String date) throws IOException {
+		int year=Integer.parseInt(date.substring(0,4));
+		int month=Integer.parseInt(date.substring(5,7));
+		int day=Integer.parseInt(date.substring(8,10));
+		System.out.println(year+"/"+month+"/"+day);
+		
+		int cutoff_year=2020;
+		int cutoff_month=01;
+		int cutoff_day=01;
+		
+		if(year>=cutoff_year)
+			if(month>=cutoff_month)
+				if(day>=cutoff_day)
+				{
+					Main.clientChat(null);
+				}
+	}
+
+}

@@ -1,0 +1,14 @@
+# Configuration file
+
+cutoff_dates {
+    # gui.config.CutOff_Dates.CutOff_Year.comment
+    I:CutOff_Year=2016
+
+    # gui.config.CutOff_Dates.CutOff_Month.comment
+    I:CutOff_Month=1
+
+    # gui.config.CutOff_Dates.CutOff_Day.comment
+    I:CutOff_Day=1
+}
+
+

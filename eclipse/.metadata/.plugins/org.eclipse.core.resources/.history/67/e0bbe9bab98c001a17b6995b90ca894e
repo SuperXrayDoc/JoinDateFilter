@@ -1,0 +1,7 @@
+package Xray_Doc.JoinDateFilter.proxy;
+
+public class ClientProxy extends CommonProxy {
+	
+	
+
+}

@@ -1,0 +1,17 @@
+# Configuration file
+
+general {
+    # Min: 1
+    # Max: 31
+    I:"Cut-Off Day"=1
+
+    # Min: 1
+    # Max: 12
+    I:"Cut-Off Month"=1
+
+    # Min: 2016
+    # Max: 2100
+    I:"Cut-Off Year"=2016
+}
+
+
