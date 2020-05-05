@@ -25,7 +25,7 @@ public class Main {
 	
 	public static final String MOD_ID="joindatefilter";
 	public static final String NAME="Join Date Filter";
-	public static final String VERSION="1.0.1";
+	public static final String VERSION="1.0.2";
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) throws IOException
@@ -39,7 +39,7 @@ public class Main {
 	String name = null;
 	String date = null;
 	int playercheck=1;
-    	writeJoinDate newDate=new writeJoinDate();
+    writeJoinDate newDate=new writeJoinDate();
 	getJoinDate searchDate=new getJoinDate();
 	int filter=0;
     
