@@ -23,3 +23,13 @@ Messages will always show up at least once if the person hasn't been logged yet 
 
 This mod only works on Constantiam. If you use it on another server it will spam your chat with "Unknown command". This is because I don't know how to limit the mod to only constantiam. If someone knows please reach out to me.
 To prevent this just disable the mod in the mod config gui in-game.
+
+# Changelog
+v 1.0.2:
+Fixed to now work with OSX and Linux.
+
+v 1.0.1:
+Fixed issue where it would hide messages from \[server].
+
+v 1.0.0:
+Release
