@@ -3,13 +3,13 @@ Created by Xray_Doc
 
 This mod was mostly made as a way for me to learn Java as I'm mostly a Python and C programmer. Expect the programming to look like amateur garbage.
 
-#Installation
+# Installation
 
 Have forge installed
 Place JoinDateFilter.jar into your .minecraft/mods folder
 Run the forge installation
 
-#Config
+# Config
 
 To adjust the cut-off date go into your mods button in-game and find Join Date Filter. Click config and edit the values to your desired parameters.
 
