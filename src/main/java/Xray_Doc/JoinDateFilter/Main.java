@@ -52,11 +52,7 @@ public class Main {
 			
 			String message = event.getMessage().getUnformattedText();
 			
-			if(message.contains("[server]") && !message.contains("<")) {
-				
-			}
-			
-			else if (message.contains("<"+Minecraft.getMinecraft().player.getName()+">")) {
+			if (message.contains("<"+Minecraft.getMinecraft().player.getName()+">") || message.contains("[P] <") || (message.contains(" whispers: ") && !message.contains("<")) || message.contains("[server]") && !message.contains("<")){
 				
 			}
 			
