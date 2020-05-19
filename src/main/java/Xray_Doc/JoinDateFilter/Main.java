@@ -18,6 +18,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import net.minecraft.client.multiplayer.ServerData;
 
 @Mod(modid=Main.MOD_ID, name=Main.NAME, version=Main.VERSION)
 
@@ -25,7 +26,7 @@ public class Main {
 	
 	public static final String MOD_ID="joindatefilter";
 	public static final String NAME="Join Date Filter";
-	public static final String VERSION="1.0.2";
+	public static final String VERSION="1.0.3";
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) throws IOException
@@ -45,12 +46,17 @@ public class Main {
     
     @SubscribeEvent
 	public void clientChat(ClientChatReceivedEvent event) throws IOException, InterruptedException {
+    	String ip = Minecraft.getMinecraft().getCurrentServerData().serverIP;
 		
-		if(config.mod_enabled) {
+		if(config.mod_enabled && ip.equalsIgnoreCase("constantiam.net")) {
 			
 			String message = event.getMessage().getUnformattedText();
 			
-			if(message.contains("[server]")) {
+			if(message.contains("[server]") && !message.contains("<")) {
+				
+			}
+			
+			else if (message.contains("<"+Minecraft.getMinecraft().player.getName()+">")) {
 				
 			}
 			
@@ -78,6 +84,7 @@ public class Main {
 				String strCurrentDate = currentDate.format(formatter);
 				
 				newDate.newDateAppend(name,strCurrentDate);
+				playercheck=1;
 				event.setMessage(null);
 			}
 			
