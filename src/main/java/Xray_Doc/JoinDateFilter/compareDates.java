@@ -10,14 +10,9 @@ public class compareDates {
 		int cutoff_month=config.cutoff_month;
 		int cutoff_day=config.cutoff_day;
 		
-		System.out.println(cutoff_year +"/"+ cutoff_month + "/" + cutoff_day);
+		if(year>=cutoff_year && month>=cutoff_month && day>=cutoff_day) //fuck you aholic
+			return true;
 		
-		if(year>=cutoff_year)
-			if(month>=cutoff_month)
-				if(day>=cutoff_day)
-				{
-					return true;
-				}
 		return false;
 	}
 }
