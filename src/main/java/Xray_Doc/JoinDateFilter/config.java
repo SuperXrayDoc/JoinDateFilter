@@ -14,7 +14,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Config(modid=Main.MOD_ID, name="JDF_Config", type=Type.INSTANCE)
 public class config {
 	@Name("Mod Enable")
-	@Comment("Disable when not playing on Constantiam")
 	public static boolean mod_enabled=true;
 	
 	@Name("Cut-Off Year")
