@@ -1,4 +1,4 @@
-Join Date Filter v 1.0.3
+Join Date Filter v 1.0.4
 Created by Xray_Doc
 
 This mod was mostly made as a way for me to learn Java as I'm mostly a Python and C programmer. Expect the programming to look like amateur garbage.
@@ -20,6 +20,10 @@ IMPORTANT:
 Messages will always show up at least once if the person hasn't been logged yet since it takes time to get join date info from the server. After that they will be filtered.
 
 Changelog:
+v 1.0.4:
+Fixed a weird error message that kept getting logged due to a system.out.print() (i dont even know how that's possible)
+No longer filters whispers and party chat
+
 v 1.0.3:
 Fixed a bug that allowed players to bypass the filter by having [server] in their message
 No longer filters your own messages if you set the cut-off date to before your joindate
