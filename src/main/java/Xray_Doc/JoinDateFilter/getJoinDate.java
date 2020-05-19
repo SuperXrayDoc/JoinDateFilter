@@ -29,15 +29,18 @@ public class getJoinDate {
 	    
 	    while ((line2=reader_wl.readLine()) != null) {
 			if(line2.equalsIgnoreCase(name)) {
+				reader_wl.close();
+				reader_names.close();
 				return 2;
 			}
 	    }
-	    //reader_wl.close();
+	    reader_wl.close();
 	    
 	    while ((line=reader_names.readLine()) != null) {
 			if(line.equalsIgnoreCase(name)) {
 				String date=reader_names.readLine();
 				filter=compareDates.compareJoinDate(date);
+				reader_names.close();
 				if(filter) {
 					return 1;
 				}
@@ -46,9 +49,10 @@ public class getJoinDate {
 				}
 			}
 		}
+	    reader_names.close();
+	    
 	    Minecraft.getMinecraft().player.sendChatMessage("/joindate "+name);
 	    
-		//reader_names.close();
 	    return 0;
 	}
 }
