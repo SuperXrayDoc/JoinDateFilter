@@ -19,9 +19,6 @@ Dates and names of people logged are stored within .minecraft/JoinDateFilter/dat
 IMPORTANT:
 Messages will always show up at least once if the person hasn't been logged yet since it takes time to get join date info from the server. After that they will be filtered.
 
-This mod only works on Constantiam. If you use it on another server it will spam your chat with "Unknown command". This is because I don't know how to limit the mod to only constantiam. If someone knows please reach out to me.
-To prevent this just disable the mod in the mod config gui in-game.
-
 Changelog:
 v 1.0.3:
 Fixed a bug that allowed players to bypass the filter by having [server] in their message
