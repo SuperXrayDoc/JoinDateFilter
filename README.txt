@@ -1,4 +1,4 @@
-Join Date Filter v 1.0.2
+Join Date Filter v 1.0.0
 Created by Xray_Doc
 
 This mod was mostly made as a way for me to learn Java as I'm mostly a Python and C programmer. Expect the programming to look like amateur garbage.
@@ -23,6 +23,11 @@ This mod only works on Constantiam. If you use it on another server it will spam
 To prevent this just disable the mod in the mod config gui in-game.
 
 Changelog:
+v 1.0.3:
+Fixed a bug that allowed players to bypass the filter by having [server] in their message
+No longer filters your own messages if you set the cut-off date to before your joindate
+Made it so the mod only works on constantiam.net
+
 v 1.0.2:
 Fixed to now work with OSX and Linux.
 
