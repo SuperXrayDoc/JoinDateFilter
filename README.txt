@@ -1,4 +1,4 @@
-Join Date Filter v 1.0.0
+Join Date Filter v 1.0.3
 Created by Xray_Doc
 
 This mod was mostly made as a way for me to learn Java as I'm mostly a Python and C programmer. Expect the programming to look like amateur garbage.
