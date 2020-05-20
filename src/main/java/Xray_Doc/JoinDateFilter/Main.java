@@ -15,6 +15,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.network.FMLNetworkEvent.ClientConnectedToServerEvent;
+
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -26,7 +28,7 @@ public class Main {
 	
 	public static final String MOD_ID="joindatefilter";
 	public static final String NAME="Join Date Filter";
-	public static final String VERSION="1.0.3";
+	public static final String VERSION="1.0.4";
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) throws IOException
@@ -43,19 +45,29 @@ public class Main {
     writeJoinDate newDate=new writeJoinDate();
 	getJoinDate searchDate=new getJoinDate();
 	int filter=0;
+	int server=0;
     
+	@SubscribeEvent
+	public void clientH(ClientConnectedToServerEvent event) throws IOException, InterruptedException {
+		server=0;
+		String ip = Minecraft.getMinecraft().getCurrentServerData().serverIP;
+		if (ip.equalsIgnoreCase("constantiam.net")) {
+			server=1;
+		}
+	}
+	
     @SubscribeEvent
 	public void clientChat(ClientChatReceivedEvent event) throws IOException, InterruptedException {
-    	String ip = Minecraft.getMinecraft().getCurrentServerData().serverIP;
-		
-		if(config.mod_enabled && ip.equalsIgnoreCase("constantiam.net")) {
-			
+    	
+		if(config.mod_enabled && server==1) {
+				
 			String message = event.getMessage().getUnformattedText();
+			String myName=Minecraft.getMinecraft().player.getName();
 			
-			if (message.contains("<"+Minecraft.getMinecraft().player.getName()+">") || 
+			if(message.contains("<"+myName+">") || 
 					message.contains("[P] <") || 
 					(message.contains(" whispers: ") && !message.contains("<")) || 
-					(message.contains("[server]") && !message.contains("<"))){
+					(message.contains("[server]") && !message.contains("<"))) {
 				
 			}
 			
