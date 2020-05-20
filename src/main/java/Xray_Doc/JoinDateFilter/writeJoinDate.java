@@ -22,7 +22,7 @@ public class writeJoinDate {
 	    PrintWriter out = new PrintWriter(bw);
 		out.print(name+"\n"+date+"\n");
 		out.close();
-		wait(3000); //prevent getting kicked for spam
+		//wait(3000); //prevent getting kicked for spam (was causing errors?)
 		
 		return;
 	}
