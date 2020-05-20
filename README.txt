@@ -21,7 +21,8 @@ Messages will always show up at least once if the person hasn't been logged yet 
 
 Changelog:
 v 1.0.4:
-Fixed a weird error message that kept getting logged due to a system.out.print() (i dont even know how that's possible)
+Fixed a weird error message that kept getting logged
+Cleaned up the ip check for constantiam.net
 No longer filters whispers and party chat
 
 v 1.0.3:
