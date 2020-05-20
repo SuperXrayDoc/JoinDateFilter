@@ -24,6 +24,7 @@ v 1.0.4:
 Fixed a weird error message that kept getting logged
 Cleaned up the ip check for constantiam.net
 No longer filters whispers and party chat
+Added MIT license
 
 v 1.0.3:
 Fixed a bug that allowed players to bypass the filter by having [server] in their message
