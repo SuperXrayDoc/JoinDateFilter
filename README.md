@@ -30,7 +30,7 @@ No longer filters whispers and party chat
 
 Added MIT license
 
-**v1.0.3**
+**v 1.0.3**
 
 Fixed a bug that allowed players to bypass the filter by having [server] in their message
 
@@ -38,14 +38,14 @@ No longer filters your own messages if you set the cut-off date to before your j
 
 Made it so the mod only works on constantiam.net
 
-**v1.0.2**
+**v 1.0.2**
 
 Fixed to now work with OSX and Linux.
 
-**v1.0.1**
+**v 1.0.1**
 
 Fixed issue where it would hide messages from [server].
 
-**v1.0.0**
+**v 1.0.0**
 
 Release
