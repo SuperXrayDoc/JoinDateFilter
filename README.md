@@ -22,13 +22,18 @@ Messages will always show up at least once if the person hasn't been logged yet 
 # Changelog
 **v 1.0.4:**
 Fixed a weird error message that kept getting logged
+
 Cleaned up the ip check for constantiam.net
+
 No longer filters whispers and party chat
+
 Added MIT license
 
 **v1.0.3**
 Fixed a bug that allowed players to bypass the filter by having [server] in their message
+
 No longer filters your own messages if you set the cut-off date to before your joindate
+
 Made it so the mod only works on constantiam.net
 
 **v1.0.2**
