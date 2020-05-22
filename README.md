@@ -36,11 +36,14 @@ No longer filters your own messages if you set the cut-off date to before your j
 
 Made it so the mod only works on constantiam.net
 
+
 **v1.0.2**
 Fixed to now work with OSX and Linux.
 
+
 **v1.0.1**
 Fixed issue where it would hide messages from [server].
+
 
 **v1.0.0**
 Release
