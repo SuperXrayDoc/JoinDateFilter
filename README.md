@@ -19,6 +19,9 @@ Dates and names of people logged are stored within .minecraft/JoinDateFilter/dat
 # IMPORTANT
 Messages will always show up at least once if the person hasn't been logged yet since it takes time to get join date info from the server. After that they will be filtered.
 
+# Download
+https://mega.nz/file/IJwnSTZC#qi2yXce8Q9g0PdQ5fbZ1YoLfW0bQpKyXA4cImhL0DVM
+
 # Changelog
 **v 1.0.4:**
 
